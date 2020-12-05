@@ -1,5 +1,5 @@
 # What is LMBERT?
-LMBERT is BERT pre-training masked language model *without next sentence prediction*. This code is a adjustment of Google's [original BERT code](https://github.com/google-research/bert) where we simply comment the next sentence prediction parts from the data preparation script ([create_pretraining_data.py](https://github.com/UBC-NLP/LMBERT/blob/main/create_pretraining_data.py)) and also edit the objective function to remove next sentence prediction from the running script ([run_pretraining.py](https://github.com/UBC-NLP/LMBERT/blob/main/run_pretraining.py)).
+LMBERT is BERT pre-training masked language model *without next sentence prediction*. This code is a adjustment of Google's [original BERT code](https://github.com/google-research/bert) where we simply comment the next sentence prediction parts from the data preparation script ([create_pretraining_data.py](https://github.com/UBC-NLP/LMBERT/blob/main/create_pretraining_data.py)) and also edit the objective function to remove next sentence prediction in the running script ([run_pretraining.py](https://github.com/UBC-NLP/LMBERT/blob/main/run_pretraining.py)).
 
 
 # Pre-training with LMBERT
