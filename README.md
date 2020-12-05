@@ -5,7 +5,7 @@ LMBERT is BERT pre-training masked language model *without next sentence predict
 # Pre-training with LMBERT
 
 This code is to do "masked LM" on an arbitrary text corpus.
-For convenience, we copy the below from Google's [GitHub](https://github.com/google-research/bert).
+For convenience, ```we copy the below from Google's [GitHub](https://github.com/google-research/bert)```.
 
 Here's how to run the data generation. The input is a plain text file, with one
 sentence per line. (It is important that these be actual sentences for the "next
